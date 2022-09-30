@@ -1,3 +1,2 @@
-FROM nginx:mainline-alpine
-
-COPY index.html /usr/share/nginx/html/
+FROM alpine:3.4
+CMD echo "Helo, World!"

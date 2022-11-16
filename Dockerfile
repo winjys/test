@@ -1,2 +1,2 @@
-FROM alpine:3.4
-CMD echo "Helo, World3333333!"
+FROM python:3.8
+CMD python aa.py
